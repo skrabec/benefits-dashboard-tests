@@ -1,0 +1,17 @@
+{
+  "name": "benefits-dashboard-tests",
+  "version": "1.0.0",
+  "description": "Playwright UI and API tests for Paylocity Benefits Dashboard",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test tests/api",
+    "test:ui": "playwright test tests/ui",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.41.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
